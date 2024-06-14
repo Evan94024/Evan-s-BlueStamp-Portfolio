@@ -88,7 +88,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)-->
 
 # Starter Project: RGB Slider
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=juAjxWSKfpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=juAjxWSKfpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This project used a circuit board, 3 sliders that controlled the amount of red, green and blue light going into the LED.
 Once I soldered the compnents in place, I need an alternate power source like a laptop, wall socket or other thing.
