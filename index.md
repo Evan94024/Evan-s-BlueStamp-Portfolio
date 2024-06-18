@@ -88,6 +88,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)-->
 
 # Starter Project: RGB Slider
+
 <iframe width="560" height="315" src="https://youtu.be/juAjxWSKfpk?si=6-eJEAobpVqf8uFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This project used a circuit board, 3 sliders that controlled the amount of red, green and blue light going into the LED.
