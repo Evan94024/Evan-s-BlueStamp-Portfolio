@@ -85,5 +85,5 @@ One of the best parts about Github is that you can view how other people set up 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/juAjxWSKfpk?si=qo6yIqo7F9ixu_79" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-This project used a circuit board, 3 sliders that controlled the amount of red, green and blue light going into the LED.
-Once I soldered the compnents in place, I need an alternate power source like a laptop, wall socket or other thing.
+This project used a circuit board with 3 potentiometer sliders and an LED attached to it. The potentiometer sliders control the amount of red, green and blue light going into the LED.
+Once I soldered the components in place, I need an alternate power source such as a laptop or wall socket.
