@@ -22,20 +22,16 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-
+-->
 
 # Second Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OKKf9Bwz9w0?si=joaem4pDMoSS2EcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
--->
+For my second milestone, I secured the entire circuit to the cardboard base and added the rock, paper and scissors symbols to the servos. one of the greatest challenges I faced was getting the battery to stay in place. While this may not seem difficult, at one point while I was hot glueing the cardboard gaurds for the battery onto the base, I notice there was smoke, and when I looked into the frame I saw that the battery was emmiting smoke and the power wire was melting. I still am not sure what caused this, although it may be due to me leaving the circuit on or somehow short circuiting it. This, along with many other close calls, such as a faulty battery, makes it a miracle that my arduino hasn't been burnt to a crisp yet. Eventualy, I got the circuit right and it hasn't shorted again. next I have to add an LED the indicate that the arduino is on and add an openable base. 
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wZV70MqZfsc?si=4fA33KtGGKvFgOIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
