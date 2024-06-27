@@ -7,9 +7,8 @@ My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be use
 | Evan L | Greene Middle School | Electrical Engineering | Rising 8th Grader
 
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](Evan_L.JPG)
   
 # Final Milestone
 
