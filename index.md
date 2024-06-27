@@ -47,16 +47,126 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+#include <Servo.h>
+
+volatile long A;
+
+float checkdistance_11_10() {
+
+digitalWrite(11, LOW);
+
+delayMicroseconds(2);
+
+digitalWrite(11, HIGH);
+
+delayMicroseconds(10);
+
+digitalWrite(11, LOW);
+
+float distance = pulseIn(10, HIGH) / 58.00;
+
+delay(10);
+
+return distance;
+
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+Servo servo_3;
+
+Servo servo_6;
+
+Servo servo_9;
+
+void setup()
+
+{
+
+A = 0;
+
+pinMode(11, OUTPUT); 
+
+pinMode(10, INPUT);
+
+pinMode(12, OUTPUT);
+
+servo_3.attach(3); 
+
+servo_6.attach(6);
+
+servo_9.attach(9);
 
 }
+
+void loop()
+
+{
+
+if (checkdistance_11_10() < 20) {
+
+A = random(0, 4);
+
+switch (A) {
+
+case 1:
+
+tone(12,131);
+
+delay(100);
+
+noTone(12);
+
+servo_3.write(179);
+
+delay(1000);
+
+servo_3.write(90);
+
+delay(500);
+
+break;
+
+case 2:
+
+tone(12,131);
+
+delay(100);
+
+noTone(12);
+
+servo_6.write(179);
+
+delay(1000);
+
+servo_6.write(90);
+
+delay(500);
+
+break;
+
+case 3:
+
+tone(12,131);
+
+delay(100);
+
+noTone(12);
+
+servo_9.write(179);
+
+delay(1000);
+
+servo_9.write(90);
+
+delay(500);
+
+break;
+
+}
+
+}
+
+}
+
 ```
 
 # Bill of Materials
@@ -65,15 +175,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Tinkercad  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Tinkercad  | Used to design the circuit | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 -->
 
