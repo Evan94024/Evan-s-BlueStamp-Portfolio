@@ -8,7 +8,7 @@ My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be use
 
 
 
-![Headstone Image](Evan_L.JPG)
+![Headstone Image](Evan.JPG)
   
 # Final Milestone
 
