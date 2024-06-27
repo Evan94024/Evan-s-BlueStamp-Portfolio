@@ -1,5 +1,6 @@
 Rock Paper Scissor Machine
 
+My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be used for both entertainment and decision making. It is powered by a 9-volt battery, but can be powered by a computer or other alternate power source. The battery powers an Arduino uno, which is linked to 3 servos and an ultrasonic sensor using different jumping wires. When the ultrasonic sensor detects a change in distance using the frequent sound waves, it will notify the Arduino about it. The C++ code that the arduino UNO was given tells it to send a signal to a random servo, which will hold up a rock, paper or scissors sign. One of the many challenges I faced was figuering out a way to interpret the switch into the wire connecting battery and the Arduino.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
