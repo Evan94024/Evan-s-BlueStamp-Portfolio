@@ -6,8 +6,6 @@ My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be use
 |:--:|:--:|:--:|:--:|
 | Evan L | Greene Middle School | Electrical Engineering | Rising 8th Grader
 
-
-
 ![Headstone Image](Evan.JPG)
   
 # Final Milestone
@@ -16,7 +14,7 @@ My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be use
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I have added a stand that makes the project look somewhat better and helps make the chosen symbol easier to see, and have added two latches that keep the bottom of the project closed. I also planned to add a small compartment in the bottom to store small things, but unfortunatley I ran out of time.
-One of the biggest challenges I have faced is making sure that I did not short the circuit. In fact, I have come close to frying my Arduino 3 times over the course of 3 weeks! As it turns out, I am prone to mixing up my ground and power wires, both on my servo and on the connections between the breadboard and the arduino. When these wires are mixed, the ground wire that should be provide a safe path for power to run in the case of a short circuit is recieving power, and as a result the power has nowhere to go and 
+One of the biggest challenges I have faced is making sure that I did not short the circuit. In fact, I have come close to frying my Arduino 3 times over the course of 3 weeks! As it turns out, I am prone to mixing up my ground and power wires, both on my servo and on the connections between the breadboard and the arduino. When these wires are mixed, the ground wire that should be providing a safe path for power to run in the case of a short circuit is recieving power, and as a result, creates a short circuit, damaging various components in the process.
 
 # Second Milestone
 
@@ -40,7 +38,6 @@ I planned to make and test the code, plan out the circuit and check that the ser
 # Code
 
 ```c++
-
 #include <Servo.h>
 
 volatile long A;
@@ -106,7 +103,6 @@ void loop() {
     }
   }
 }
-
 ```
 
 # Bill of Materials
@@ -116,7 +112,7 @@ void loop() {
 | 9-Volt Battery | Used to power the robot | $12.34 | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/ref=sr_1_5?crid=NOBNDBCXAMU2&dib=eyJ2IjoiMSJ9.LzVLI_Okv1aX44UDnl3M2wmckTFUx_wn4DFEVq1jt6YlixM49-Dq2GivmKD_qLib9CXcIW8ZbAyF_hrSEzKI11Dewzg2dBcKsvd3v1FEvGsnQQRifFhgNbhSkB-q035E2sn_rHokjzjgBh9uN6IFKief9LQoKJjTly7S-6DizcEhAajswmczqBVrpEH8ogEHQOFiv6gg2Y44kseWjwq1aQtmE5dDL1QiTou5vAhyYQK1a3Apcdjc4T9ZzwH3wFGzQLHSTX5Pdi7WWNCS133KsR4lIFUm3IQ8JNz9Evf8J9E.SgVONeBUYxL2w2A971f9WoIg5dZbGA29eLaM5aBZAzU&dib_tag=se&keywords=9%2Bvolt%2Bbattery&qid=1719523467&rdc=1&sprefix=9%2Bvolt%2Bbattery%2Caps%2C147&sr=8-5&th=1"> Link </a> |
 | Arduino UNO | To tell each of the components what to do | $27.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/ref=sr_1_3?crid=203UWEZ3B3BUO&dib=eyJ2IjoiMSJ9.MazmhFfn-DF8W5oyX_S-tH7qkt_WuogERq_8M3-FTf4cBKFAsIU8VtLC0BDz9LupUEYEpssCNi_aEZFE6m5PPnUnxUD055IxzG01a92Ufee_LDc0Z2yF_nGagiyJbh7uoYixAdJxeBkFFWo45pZIi5GnTGU1umpzMlSCh4QZ8KuKyZj7VIjyXwB2vU8mkC7kZ1ltD2lH9quj8udS9MUeqTVeUTBmIuePFyLd0VF29WM.5WOy3pXx9LSbiwdPAa8ROu9S-HeRp1p4MJsZEnH3YK0&dib_tag=se&keywords=arduino+uno&qid=1719608387&sprefix=arduino+uno%2Caps%2C166&sr=8-3"> Link </a> |
 | Jumper Wires | Used for connections | $6.98 | <a href="https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY/ref=sr_1_1_sspa?crid=2GIASGVTZN7D0&dib=eyJ2IjoiMSJ9.tjHxIQLJsk16_0YVtUGN6Tqnr8euWNsWVjpSaq5RQkbG3UN9TjR0k0Z9kHv-_Tv_JZXRNnMnZIBITD5leVDejk2lOQI1xlNPEgfGyJj6fa7E3hz-A6yYbp4zGTqBx7sKNLN2Iqm1zxeXA41HGyiaurKqyxJGMbHVr3lVhxvS8kwa_GIge__MNxoqstjjN7rW8Z1LFvQjO36-H2Qw4WfmG-4n05mOM8iMop37UVCgXPObbzbK1Ejou3NTFd0ClHKI0kve9-oO3-J3bX7oeHa3DVNoU3to9u4bJ5V-ps6pySU.xrRnInWm7p-kSWjvvbW-grXhz-X7WbP32hcGaRhruMI&dib_tag=se&keywords=jumper%2Bwires&qid=1719523989&s=electronics&sprefix=jumper%2Bwires%2Celectronics%2C156&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
-| Cardboard | Used for the frame | $0.00 | Scavenge for it |
+| Cardboard | Used for the frame | $0.00 | Recycled |
 | Ultrasonic Sensor | To trigger the Arduino | $6.99 | <a href="https://www.amazon.com/WWZMDiB-HC-SR04-Ultrasonic-Distance-Measuring/dp/B0B1MJJLJP/ref=sr_1_4?crid=179LZ0OU0QKFP&dib=eyJ2IjoiMSJ9.eqTALHM8pOp6RiYX3iy9K-W7dgivmhsxyWJ1LYCoHT8WHad-jx1NdR8mhhnCVzO30vdCg3uHwO7MoDWxec_JGtJBqsxiaOo4-TGEICUbt4s7nTFRmHNkDKFu6Xn3j7CeRnYYcXOtf67SYSUHsANQDlT4aTQc-4UbLsQq3FgkblPH4zVpe8f-wrO4RDSHFgrL4hSaYCHkXXtMrMMaDAtMqshKsi_ETi00dJ8GZ1IpbXc.ZLGzMBBx5rt95FRpHR9QjXASgV2Bpq_11ECrxB8PA20&dib_tag=se&keywords=ultrasonic%2Bsensor&qid=1719524231&sprefix=ultrasonic%2Bsenso%2Caps%2C157&sr=8-4&th=1"> Link </a> |
 | Black paint | To paint the frame | $12.99 | <a href="https://www.amazon.com/Jacquard-Products-Black-Textile-Color/dp/B08KGYMLD9/ref=sr_1_1_sspa?crid=36QZDUR4NZ3YI&dib=eyJ2IjoiMSJ9.GHVXFW1bR2z72QfsIlGz6I1Klio7j0pt69gsXJsKA1U-LM3sEGRt9qHcqq-TuZ0U1RgLxj7h9sVEa5UGPahwCCTuRnFK89eAJmr1A10B8_7cMsftLjJbKgCYZ6eSqdyx-yh9sBbune6dNEfKy_EuvjWcrbJUz_Bjwdp0oyJFhWGLYweqAOlRNIZwykzsrnU63PnwmkqxTz5JDNsI2e89_TSMNBuuzpl9KnIXdhgPSYOrfzAADXud3bvbiQdiqjADtWcq_3yqprtbccV97wW5w_uDNGTuJQGRoI7clmwiaE.AIQRms05ylST_6sMMIzGSJJ_IgYtS_Nx93JU3YJHnXs&dib_tag=se&keywords=black%2Bfabric%2Bpaint&qid=1719524354&sprefix=blakc%2Bfabric%2Bpaint%2Caps%2C163&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 | Battery holder | Holds the battery in place | $5.99 | <a href="https://www.amazon.com/LAMPVPATH-Pack-Battery-Holder-Switch/dp/B07T83B4SW/ref=sr_1_1_sspa?crid=1H832FR62E4DM&dib=eyJ2IjoiMSJ9.Z8nYMSb9jUOuf-Gh6E8ddJOKkM2PB-gL8z3Ewv9whDpvZ1UblMzUTjrsrkm_JXLxmEYBAX_PTe9pxnxDwmO9Szh2Bos1L19eTXfc8kJRtt9O0aR4Xd-9L5waPHqbsnc3-9Z-hxQ_q05xUcrwHliITeVKKN1pWqIbCzsJHjEVmxTExTbxOILKV36zki_lk1VG9tsR0IRtgOqoH-XmT-kv-ULavTw3SFGJ8ilo19frwxU.LpTl0Aneap121sYjZtGyzQ7fvpytwyr1Vac1fGAtLLs&dib_tag=se&keywords=9-volt+battery+holder&qid=1719524410&sprefix=9-volt+battery+holder%2Caps%2C153&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
