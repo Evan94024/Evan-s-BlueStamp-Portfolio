@@ -1,4 +1,4 @@
-Rock Paper Scissor Machine
+# Rock Paper Scissor Machine
 
 My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be used for both entertainment and decision making. It is powered by a 9-volt battery, but can be powered by a computer or other alternate power source. The battery powers an Arduino uno, which is linked to 3 servos and an ultrasonic sensor using different jumping wires. When the ultrasonic sensor detects a change in distance using the frequent sound waves, it will notify the Arduino about it. The C++ code that the arduino UNO was given tells it to send a signal to a random servo, which will hold up a rock, paper or scissors sign. One of the many challenges I faced was figuering out a way to interpret the switch into the wire connecting battery and the Arduino.
 
@@ -15,13 +15,7 @@ My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be use
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
-I Have Added a stand that makes the project look somewhat better and helps make the chosen symbol easier to see, and have added two latches that keep the bottom of the project closed. I also planned to add a small compartment in the bottom to store small things, but unfortunatley I ran out of time.
+I have added a stand that makes the project look somewhat better and helps make the chosen symbol easier to see, and have added two latches that keep the bottom of the project closed. I also planned to add a small compartment in the bottom to store small things, but unfortunatley I ran out of time.
 One of the biggest challenges I have faced is making sure that I did not short the circuit. In fact, I have come close to frying my Arduino 3 times over the course of 3 weeks! As it turns out, I am prone to mixing up my ground and power wires, both on my servo and on the connections between the breadboard and the arduino. When these wires are mixed, the ground wire that should be provide a safe path for power to run in the case of a short circuit is recieving power, and as a result the power has nowhere to go and 
 
 # Second Milestone
@@ -41,6 +35,7 @@ I planned to make and test the code, plan out the circuit and check that the ser
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![RPS machine](RPS.PNG)
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
