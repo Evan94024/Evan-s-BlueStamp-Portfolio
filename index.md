@@ -6,7 +6,7 @@ My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be use
 |:--:|:--:|:--:|:--:|
 | Evan L | Greene Middle School | Electrical Engineering | Rising 8th Grader
 
-![Headstone Image](Evan.JPG)
+<img src="Evan.JPG" alt="Headshot" width="350" class="center"/>
   
 # Final Milestone
 
@@ -30,8 +30,7 @@ I planned to make and test the code, plan out the circuit and check that the ser
 
 
 # Schematics 
-
-![RPS machine](RPS.png)
+<img src="RPS.png" alt="RPS Schematic">
 
 # Code
 
