@@ -10,14 +10,12 @@ My Rock Paper Scissors machine (RPS Machine) functions as a tool that can be use
   
 # Final Milestone
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I have added a stand that makes the project look somewhat better and helps make the chosen symbol easier to see, and have added two latches that keep the bottom of the project closed. I also planned to add a small compartment in the bottom to store small things, but unfortunatley I ran out of time.
 One of the biggest challenges I have faced is making sure that I did not short the circuit. In fact, I have come close to frying my Arduino 3 times over the course of 3 weeks! As it turns out, I am prone to mixing up my ground and power wires, both on my servo and on the connections between the breadboard and the arduino. When these wires are mixed, the ground wire that should be providing a safe path for power to run in the case of a short circuit is recieving power, and as a result, creates a short circuit, damaging various components in the process.
 
 # Second Milestone
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OKKf9Bwz9w0?si=joaem4pDMoSS2EcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -121,7 +119,9 @@ void loop() {
 | Hot Glue | to hold the project together | $9.99 | <a href ="https://www.amazon.com/Krightlink-Sticks-School-Crafts-Repairs/dp/B0BC878ZRG/ref=sr_1_1_sspa?crid=3VTB5DWPSM064&dib=eyJ2IjoiMSJ9.Dg7hXYioE1SMY0Xf_SOMUA1tTOYPNLLUXT12T2VAvDxZFN6sRLkJjZGvPfYFQeOuOEwMHwb3IAbxgilYo5HE-WA13aThkplhctepZBa9nHoZpSm3FoLHs4MXEJaE3FROqXJiYaHFoTYPTEi3Iez70Wl-z9NXQmBr9GEfx2A5hdJbrwpswIoA7Hu0C95tTHuH6i2gA4ab-k1UIKgRFNPlhGbvKx2rlNVe_6ZQUydEKmgDskr7yD2fCRxo479iG7owkUePRBI07kxjz56p4Dki9vgOzegVIs6BuEsiNNiJVk4.uqhalhB_pz7L0Nehvb2MJiRgdlaAIsrRJlrjF95qQIM&dib_tag=se&keywords=hot%2Bglue%2Bgun&qid=1719524596&sprefix=hot%2Bglue%2Bgun%2Caps%2C141&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 | Small Switch | To turn the project on and off | $0.88 | <a href="https://www.amazon.com/DaierTek-250VAC-Rocker-KCD1-101-Plastic/dp/B07S2QJKTX/ref=sr_1_1_sspa?crid=KQ8NAFOO93S8&dib=eyJ2IjoiMSJ9.-qUE2IQIdh_CASb-3tn1CTBCcEYw9KMP9MBGxwSEkjoe5IBK-JJX6QinQcFWV5BQ_QRDtZ_XmdWZqTOuLsOfR-STJyLQDHGKCAtzEUsm_cbTOf_9QwRQs8ZL0s35gJg-s4GHeu_2rxQYCXhtWMo6ih0INlbZz8YTZAUR9BOAzfaBRm9MoZoxcI8t_Y-iDyJmNVzm-L7bKDN4mxboRcrnOtWyXLpbBv3UlXlnWXDTggU.tRpHTgFuzxqPUb7Yalmd_z2omGQOphuhFlIwq9EJl1o&dib_tag=se&keywords=small+switch&qid=1719608433&sprefix=%2Caps%2C206&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 
-
+# Other Resources/Examples
+- [Instructables Instructions by CrazyScience](https://www.instructables.com/Rock-Paper-Scissors-Using-Tinkercad-Circuits-and-A/)
+  
 # Starter Project: RGB Slider
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/juAjxWSKfpk?si=qo6yIqo7F9ixu_79" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
