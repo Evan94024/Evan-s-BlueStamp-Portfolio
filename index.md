@@ -34,136 +34,80 @@ I planned to make and test the code, plan out the circuit and check that the ser
 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-![RPS machine](RPS.PNG)
+
+![RPS machine](RPS.png)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+
 #include <Servo.h>
 
 volatile long A;
 
 float checkdistance_11_10() {
-
-digitalWrite(11, LOW);
-
-delayMicroseconds(2);
-
-digitalWrite(11, HIGH);
-
-delayMicroseconds(10);
-
-digitalWrite(11, LOW);
-
-float distance = pulseIn(10, HIGH) / 58.00;
-
-delay(10);
-
-return distance;
-
+  digitalWrite(11, LOW);
+  delayMicroseconds(2);
+  digitalWrite(11, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(11, LOW);
+  float distance = pulseIn(10, HIGH) / 58.00;
+  delay(10);
+  return distance;
 }
 
 Servo servo_3;
-
 Servo servo_6;
-
 Servo servo_9;
 
-void setup()
-
-{
-
-A = 0;
-
-pinMode(11, OUTPUT); 
-
-pinMode(10, INPUT);
-
-pinMode(12, OUTPUT);
-
-servo_3.attach(3); 
-
-servo_6.attach(6);
-
-servo_9.attach(9);
-
+void setup() {
+  A = 0;
+  pinMode(11, OUTPUT); 
+  pinMode(10, INPUT);
+  pinMode(12, OUTPUT);
+  servo_3.attach(3); 
+  servo_6.attach(6);
+  servo_9.attach(9);
 }
 
-void loop()
+void loop() {
+  if (checkdistance_11_10() < 20) {
+    A = random(0, 4);
+    switch (A) {
+      case 1:
+        tone(12,131);
+        delay(100);
+        noTone(12);
+        servo_3.write(179);
+        delay(1000);
+        servo_3.write(90);
+        delay(500);
+        break;
+      
+      case 2:
+        tone(12,131);
+        delay(100);
+        noTone(12);
+        servo_6.write(179);
+        delay(1000);
+        servo_6.write(90);
+        delay(500);
+        break;
 
-{
-
-if (checkdistance_11_10() < 20) {
-
-A = random(0, 4);
-
-switch (A) {
-
-case 1:
-
-tone(12,131);
-
-delay(100);
-
-noTone(12);
-
-servo_3.write(179);
-
-delay(1000);
-
-servo_3.write(90);
-
-delay(500);
-
-break;
-
-case 2:
-
-tone(12,131);
-
-delay(100);
-
-noTone(12);
-
-servo_6.write(179);
-
-delay(1000);
-
-servo_6.write(90);
-
-delay(500);
-
-break;
-
-case 3:
-
-tone(12,131);
-
-delay(100);
-
-noTone(12);
-
-servo_9.write(179);
-
-delay(1000);
-
-servo_9.write(90);
-
-delay(500);
-
-break;
-
-}
-
-}
-
+      case 3:
+        tone(12,131);
+        delay(100);
+        noTone(12);
+        servo_9.write(179);
+        delay(1000);
+        servo_9.write(90);
+        delay(500);
+        break;
+    }
+  }
 }
 
 ```
-
-
 
 # Bill of Materials
 
